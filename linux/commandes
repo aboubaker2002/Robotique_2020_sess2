@@ -7,9 +7,26 @@ apt
            install : suivi du nom du logiciel pour l'installer
            remove  : suivi du nom logiciel pour le desinstaller
 cd  
+    change directory : permet de changer de dossier
 ls
+  list : permet de lister les elements d'un dossier
+  -l : pour afficher les elemenrs sous forme de lister
+  -a : pour afficher les element cache
+  -h : pour afficher les tailles de maniere plus pratique
 mkdir
-touch
+     make directory : permet de cree des dossiers
+
+touch : permet d'actualiser la date d'acces si lélement n'existe pas, il cree un fichier
+
 rm
+  remove : permet de supprimer des fichiers et des dossiers
+  -r : indispensable pour supprimer des dossier non vide
 cp
+   copy : permet de copier les element dans un autre emplacement
 mv
+   move : permet de deplacer  un element dans un autre emplacement
+
+chmod
+     change mode : permet de changer les permission Read, Write, eXecute pour 
+     les User , Group , Other 
+     
